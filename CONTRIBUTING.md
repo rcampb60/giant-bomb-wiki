@@ -2,21 +2,15 @@
 
 Thanks for your interest in contributing! This project uses MediaWiki with custom skins and Vue components. Below are guidelines to help you get started.
 
----
-
 ## Development
 
 To get started fork the repo and make your changes then compare to the main branches for PRs.
-
----
 
 ## Code Formatting
 
 We use [Prettier](https://prettier.io/docs/install) and `.editorconfig` to enforce formatting rules.
 
 Make sure your code editor is configured to use Prettier as the default formatter.
-
----
 
 ## Working with Skins
 
@@ -30,8 +24,6 @@ $wgDefaultSkin = "giantbomb";
 ```
 
 You can manage available skins via `LocalSettings.php`. See the [MediaWiki manual](https://www.mediawiki.org/wiki/Manual:LocalSettings.php) for more details.
-
----
 
 ## Building Vue Components
 
@@ -62,8 +54,6 @@ Vue components can be created either as `.js` (using SFC syntax) or `.vue` files
 
 - Register it in `skin.json` under `skins.giantbomb` as a `packageFile`.
 
----
-
 ## Binding Vue Components
 
 To bind components to HTML within PHP templates:
@@ -91,9 +81,9 @@ To bind components to HTML within PHP templates:
    data-game-id="123" data-my-prop="value"
    ```
 
----
-
 ### Using Vue Components Within Other Components
+
+---
 
 You can import and nest components like so:
 
@@ -104,8 +94,6 @@ export default {
 };
 ```
 
----
-
 ## Project TODOs
 
 Here are some open contributor tasks:
@@ -113,5 +101,3 @@ Here are some open contributor tasks:
 - ~~Remove files that can be regenerated via the MediaWiki CLI~~
 - Start on proof-of-concept approaches for wiki theming
 - Start on building out complex relationships between categories
-
----

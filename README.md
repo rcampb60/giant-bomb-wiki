@@ -10,6 +10,8 @@ A wiki about videogames.
 
 ### Running the Wiki for the First Time
 
+---
+
 1. Clone the repository and navigate to the root directory.
 2. Start the containers:
    ```bash
@@ -39,6 +41,8 @@ A wiki about videogames.
 
 ### Verifying Installation
 
+---
+
 Visit [http://localhost:8080/index.php/Special:Version](http://localhost:8080/index.php/Special:Version) to confirm everything is loaded:
 
 #### Skins
@@ -60,6 +64,8 @@ Visit [http://localhost:8080/index.php/Special:Version](http://localhost:8080/in
 - TemplateStylesExtender
 
 ### Semantic MediaWiki Example
+
+---
 
 To test Semantic annotations, create a page (e.g. `The Legend of Zelda: Twilight Princess`) with:
 
