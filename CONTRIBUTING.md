@@ -83,8 +83,6 @@ To bind components to HTML within PHP templates:
 
 ### Using Vue Components Within Other Components
 
----
-
 You can import and nest components like so:
 
 ```js
